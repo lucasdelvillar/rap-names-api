@@ -3,7 +3,7 @@ This is a simple API that lets you get generic information about 21 Savage and C
 
 **Link for server:** https://rap-names-api-ld.herokuapp.com
 
-![alt tag](https://i.imgur.com/itKqjw3.png)
+<!-- ![alt tag](https://i.imgur.com/itKqjw3.png) -->
 
 ## How It's Made:
 
