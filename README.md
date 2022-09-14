@@ -2,6 +2,7 @@
 This is a simple API that lets you get generic information about 21 Savage and Chance the Rapper. 
 
 **Link for server:** https://rap-names-api-ld.herokuapp.com
+
 **Link to webpage that uses API:** https://ld-rap-names.netlify.app
 
 <!-- ![alt tag](https://i.imgur.com/itKqjw3.png) -->
