@@ -7,7 +7,7 @@ This is a simple API that lets you get generic information about 21 Savage and C
 
 ## How It's Made:
 
-**Tech used:** Node.js with Express, HTML
+**Tech used:** Node.js with Express
 
 The API has a get method that responds to "21 Savage" and "Chance the Rapper" (not case-sensitive) when searched. If a user searches for something else, the server
 will respond back with "unknown". The server is hosted and deployed through Heroku.
