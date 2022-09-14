@@ -5,7 +5,7 @@ const PORT = 8000
 
 app.use(cors())// client side code won't work if cors isn't being handled
 
-// if you access the server in the browser in will work. But if using client-side code
+// if you access the server in the browser it will work. But if using client-side code
 // it won't work yet without cors()
 
 let rappers = {
@@ -46,11 +46,11 @@ let rappers = {
         'children': 'unknown'
     }
 }
-
+// serves index.html to display in broswer
 app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html')
 })
-
+// responds back with approriate JSON 
 app.get('/api/:name', (request, response) => {
     const rapperName = request.params.name.toLowerCase()
     if(rappers[rapperName]){
