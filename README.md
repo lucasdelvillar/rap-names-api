@@ -16,7 +16,7 @@ Side note: There is no client-side JS. The .html included is only used to displa
 
 ## Lessons Learned:
 
-This project taught me how to implement the read operation from the CRUD convention. By using app.get('/api/:yourVariableName') you set up your
+This project taught me how to implement the read operation from the CRUD convention. By using app.get('/api/:yourVariableName', ...) you set up your
 server to listen to different query searches and return information. The cors node module is needed in order to allow other clients to access your API. 
 Specifically to Heroku, I must pass process.env.PORT to app.listen() since Heroku will choose a port of it's own. 
 
